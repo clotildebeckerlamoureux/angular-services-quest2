@@ -1,0 +1,15 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+}

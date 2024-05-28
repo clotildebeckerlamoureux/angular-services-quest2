@@ -1,0 +1,10 @@
+<h1>List of cocktails</h1>
+
+<section>
+    @for (drink of cocktails; track drink) {
+        <div>
+            <img src="{{drink.image}}" alt="{{ drink.name }}">
+            <p>{{ drink.name }} : {{ drink.price }} €</p>
+        </div>
+    }
+</section>
